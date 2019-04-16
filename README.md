@@ -1,6 +1,6 @@
-# Ion-Block SDK 
+# IOTBlockchain-Ethereum-SDK
 
-This SDK will help you to add to our existing Private Blockchain network from your Raspberry Pi -3.
+This experimental SDK will help you to add to our existing Private Blockchain network to control an LED from your Raspberry Pi -3.
 
 **Prerequisite:**
 
