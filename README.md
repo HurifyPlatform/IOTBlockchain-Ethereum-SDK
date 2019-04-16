@@ -14,9 +14,9 @@ Download or clone this GitHub repository in your RPI-3 and extract it to the Des
 ```
 $ cd Desktop
 
-$ git clone https://github.com/PaasmerIoT/ION-BLOC-SDK.git
+$ git clone https://github.com/HurifyPlatform/IOTBlockchain-Ethereum-SDK.git
 
-$ cd ION-BLOC-SDK
+$ cd IOTBlockchain-Ethereum-SDK
 ```
 
 - Now you have successfully cloned the GitHub repository to your Desktop.
