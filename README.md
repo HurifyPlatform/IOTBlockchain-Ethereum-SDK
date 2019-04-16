@@ -58,5 +58,5 @@ admin.peers
 
 >The `contract.js` file in the contract folder will help you to compile and deploy contract in blockchain.
 
-## Sample Code for controlling the IoT using Ion-Block was given in IoT-Blink folder.
+## Sample Code for controlling the LED on an IoT Device using IOTBlockchain-Ethereum-SDK was given in IoT-Blink folder.
     This code will allow users to deploy the contract and control the blinkibng of LED based on the events.
