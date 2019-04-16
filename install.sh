@@ -9,7 +9,7 @@ tar -xzf go1.8.3.linux-armv6l.tar.gz
 cp -r go /usr/local/
 export PATH=$PATH:/usr/local/go/bin 
 echo "Installation Ethereum Client -- Go-Ethereum...." 
-cp /home/pi/Desktop/ION-BLOC-SDK/Go-Ethereum/geth /usr/local/bin/
+cp /home/pi/Desktop/IOTBlockchain-Ethereum-SDK/Go-Ethereum/geth /usr/local/bin/
 chmod 777 /usr/local/bin/geth
 apt-get install -y python-software-properties
 echo "Downloading and Installing Nodejs and npm...."
@@ -30,7 +30,7 @@ echo "Voila!!! Now your ready to connect to our Private Blockchain Network"
 echo "Connecting to Private Blockchain......."
 cd /home/pi/Desktop/
 mkdir Blockchain && cd Blockchain
-geth --datadir "aws" init "/home/pi/Desktop/ION-BLOC-SDK/Genesis/genesis.json"
+geth --datadir "aws" init "/home/pi/Desktop/IOTBlockchain-Ethereum-SDK/Genesis/genesis.json"
 geth --datadir "aws" --networkid 1234 --port 30303 --rpc --rpcport 8545 --rpccorsdomain "*" --nodiscover console
 
 
